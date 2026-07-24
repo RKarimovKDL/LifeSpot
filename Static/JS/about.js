@@ -36,3 +36,28 @@ const appendReview = (userName, comment, createdAt) => {
 document
     .querySelector('#add-review')
     ?.addEventListener('click', requestReview);
+
+const slides = [...document.querySelectorAll('.slide')];
+let activeSlide = 0;
+
+const showSlide = (index) => {
+    activeSlide = (index + slides.length) % slides.length;
+
+    slides.forEach((slide, slideIndex) => {
+        const isActive = slideIndex === activeSlide;
+        slide.hidden = !isActive;
+        slide.setAttribute('aria-hidden', String(!isActive));
+    });
+};
+
+document
+    .querySelector('#previous-slide')
+    ?.addEventListener('click', () => showSlide(activeSlide - 1));
+
+document
+    .querySelector('#next-slide')
+    ?.addEventListener('click', () => showSlide(activeSlide + 1));
+
+if (slides.length > 0) {
+    showSlide(0);
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title">
+  <title id="title">Город на закате</title>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#7c3aed"/><stop offset=".55" stop-color="#fb7185"/><stop offset="1" stop-color="#fdba74"/></linearGradient></defs>
+  <rect width="1200" height="600" fill="url(#sky)"/><circle cx="260" cy="230" r="90" fill="#fef3c7" opacity=".9"/>
+  <g fill="#3f1d38"><path d="M0 410h220v190H0zM240 315h130v285H240zM390 365h205v235H390zM620 270h190v330H620zM835 350h145v250H835zM1000 300h200v300h-200z"/></g>
+  <path d="M0 520h1200v80H0z" fill="#1f2937"/><path d="M0 557h1200" stroke="#fde68a" stroke-width="7" stroke-dasharray="55 35"/>
+</svg>

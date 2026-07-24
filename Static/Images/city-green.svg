@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title">
+  <title id="title">Город рядом с парком</title>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#bae6fd"/><stop offset="1" stop-color="#ecfccb"/></linearGradient></defs>
+  <rect width="1200" height="600" fill="url(#sky)"/>
+  <g fill="#64748b"><path d="M80 250h170v350H80zM280 330h160v270H280zM470 210h210v390H470zM720 290h150v310H720zM900 235h220v365H900z"/></g>
+  <path d="M0 475q170-90 340 0t340 0 340 0 180 0v125H0z" fill="#22c55e"/>
+  <g fill="#166534"><circle cx="160" cy="440" r="55"/><circle cx="380" cy="455" r="48"/><circle cx="780" cy="445" r="60"/><circle cx="1050" cy="450" r="52"/></g>
+</svg>

@@ -172,6 +172,68 @@ footer a {
     font-size: .875rem;
 }
 
+.slider-section {
+    margin-bottom: 2rem;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    border-radius: .75rem;
+    background: #0f172a;
+    box-shadow: 0 .5rem 1.5rem rgba(15, 23, 42, .18);
+}
+
+.slides {
+    min-height: 18rem;
+}
+
+.slide {
+    margin: 0;
+}
+
+.slide img {
+    display: block;
+    width: 100%;
+    height: clamp(18rem, 45vw, 30rem);
+    object-fit: cover;
+}
+
+.slide figcaption {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    background: rgba(15, 23, 42, .78);
+    color: #fff;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: center;
+    gap: .75rem;
+    padding: 1rem;
+}
+
+.slider-control {
+    min-width: 8rem;
+    padding: .65rem 1rem;
+    border: 1px solid #93c5fd;
+    border-radius: .5rem;
+    background: #eff6ff;
+    color: #1e3a8a;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.slider-control:hover,
+.slider-control:focus-visible {
+    background: #dbeafe;
+}
+
 @media (max-width: 720px) {
     aside {
         position: static;

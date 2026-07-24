@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title">
+  <title id="title">Вечерний город</title>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#2563eb"/></linearGradient></defs>
+  <rect width="1200" height="600" fill="url(#sky)"/><circle cx="930" cy="120" r="55" fill="#fde68a"/>
+  <g fill="#172554"><path d="M0 360h150v240H0zM170 260h180v340H170zM370 330h120v270H370zM510 210h220v390H510zM750 300h170v300H750zM940 245h260v355H940z"/></g>
+  <g fill="#bfdbfe"><path d="M205 300h30v25h-30zm65 0h30v25h-30zm280-45h40v28h-40zm80 0h40v28h-40zm155 85h35v25h-35zm90 0h35v25h-35zm110-55h45v28h-45zm90 0h45v28h-45z"/></g>
+</svg>
