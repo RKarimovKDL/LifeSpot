@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "LifeSpot": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:48525;http://localhost:48526"
+    }
+  }
+}

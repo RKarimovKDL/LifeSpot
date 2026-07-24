@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="LifeSpot — прямые трансляции с улиц разных городов мира">
+    <title>LifeSpot</title>
+    <link rel="stylesheet" href="/Static/CSS/index.css">
+</head>
+<body>
+    <aside>
+        <nav class="navbar" aria-label="Основная навигация">
+            <a href="/" aria-current="page">Все трансляции</a>
+        </nav>
+    </aside>
+
+    <div class="page-shell">
+        <header id="header-index">
+            <p class="brand">LifeSpot</p>
+            <h1>LifeSpot — прямые трансляции с улиц</h1>
+            <p>Смотрите, что происходит прямо сейчас в разных городах мира.</p>
+            <label class="search-label" for="video-search">Поиск трансляции</label>
+            <input id="video-search" class="search-input" type="search"
+                   placeholder="Введите название города">
+        </header>
+
+        <main>
+            <section class="video-grid" aria-label="Городские трансляции">
+                <article class="video-container">
+                    <iframe src="https://www.youtube.com/embed/Vn28Tk_uuq0"
+                            title="Трансляция из Санкт-Петербурга"
+                            loading="lazy" allowfullscreen></iframe>
+                    <h3 class="video-title">Санкт-Петербург</h3>
+                </article>
+                <article class="video-container">
+                    <iframe src="https://www.youtube.com/embed/GSmCh4DrbWY"
+                            title="Трансляция из Нью-Йорка"
+                            loading="lazy" allowfullscreen></iframe>
+                    <h3 class="video-title">Нью-Йорк</h3>
+                </article>
+                <article class="video-container">
+                    <iframe src="https://www.youtube.com/embed/JplMzss6_YE"
+                            title="Трансляция из Лондона"
+                            loading="lazy" allowfullscreen></iframe>
+                    <h3 class="video-title">Лондон</h3>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>LifeSpot © 2026</p>
+            <p>Обратная связь:
+                <a href="mailto:lifespot@example.com">lifespot@example.com</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="/Static/JS/index.js"></script>
+</body>
+</html>
