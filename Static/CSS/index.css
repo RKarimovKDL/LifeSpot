@@ -119,6 +119,59 @@ footer a {
     color: #2563eb;
 }
 
+.about-content {
+    padding: 1.5rem 0;
+}
+
+.reviews-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.review-button {
+    padding: .75rem 1rem;
+    border: 0;
+    border-radius: .5rem;
+    background: #2563eb;
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.review-button:hover,
+.review-button:focus-visible {
+    background: #1d4ed8;
+}
+
+.reviews {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.review {
+    padding: 1rem;
+    border-left: .35rem solid #2563eb;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: 0 .25rem 1rem rgba(15, 23, 42, .08);
+}
+
+.review h3,
+.review p {
+    margin: 0;
+}
+
+.review time {
+    display: block;
+    margin: .25rem 0 .75rem;
+    color: #64748b;
+    font-size: .875rem;
+}
+
 @media (max-width: 720px) {
     aside {
         position: static;
@@ -130,5 +183,10 @@ footer a {
     .page-shell {
         margin-left: 0;
         padding: 1rem;
+    }
+
+    .reviews-heading {
+        align-items: stretch;
+        flex-direction: column;
     }
 }

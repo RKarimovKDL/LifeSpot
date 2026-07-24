@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="О проекте LifeSpot и отзывы пользователей">
+    <title>О проекте — LifeSpot</title>
+    <link rel="stylesheet" href="/Static/CSS/index.css">
+</head>
+<body>
+    <aside>
+        <nav class="navbar" aria-label="Основная навигация">
+            <a href="/">Все трансляции</a>
+            <a href="/about" aria-current="page">О проекте</a>
+        </nav>
+    </aside>
+
+    <div class="page-shell">
+        <header id="header-index">
+            <p class="brand">LifeSpot</p>
+            <h1>О проекте</h1>
+            <p>
+                LifeSpot объединяет прямые городские трансляции и помогает
+                увидеть мир таким, какой он есть сейчас.
+            </p>
+        </header>
+
+        <main class="about-content">
+            <section aria-labelledby="reviews-title">
+                <div class="reviews-heading">
+                    <h2 id="reviews-title">Отзывы пользователей</h2>
+                    <button id="add-review" class="review-button" type="button">
+                        Оставить отзыв
+                    </button>
+                </div>
+                <div id="reviews" class="reviews" aria-live="polite">
+                    <p class="empty-reviews">Отзывов пока нет. Станьте первым!</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>LifeSpot © 2026</p>
+            <p>
+                Обратная связь:
+                <a href="mailto:lifespot@example.com">lifespot@example.com</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="/Static/JS/about.js"></script>
+</body>
+</html>
